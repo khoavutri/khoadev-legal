@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Khoa Dev · Trang pháp lý</title>
+<style>
+  :root { --bg:#0d0d12; --card:#15151c; --text:#f5f5f7; --muted:#9b9ba6; --red:#ff2d55; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif; background:var(--bg); color:var(--text); }
+  .wrap { max-width:760px; margin:0 auto; padding:64px 24px; }
+  .logo { font-weight:800; font-size:22px; letter-spacing:.5px; }
+  .logo span { color:var(--red); }
+  h1 { font-size:34px; margin:40px 0 8px; }
+  p.lead { color:var(--muted); margin:0 0 32px; }
+  .cards { display:grid; gap:16px; }
+  a.card { display:block; background:var(--card); border:1px solid #23232e; border-radius:14px; padding:20px 22px; text-decoration:none; color:var(--text); transition:border-color .15s; }
+  a.card:hover { border-color:var(--red); }
+  a.card b { display:block; font-size:17px; margin-bottom:4px; }
+  a.card small { color:var(--muted); }
+  footer { margin-top:48px; color:var(--muted); font-size:13px; border-top:1px solid #23232e; padding-top:20px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="logo">khoa<span>dev</span>.</div>
+    <h1>Trang pháp lý</h1>
+    <p class="lead">Tài liệu pháp lý cho các ứng dụng và dịch vụ của Khoa Dev.</p>
+    <div class="cards">
+      <a class="card" href="/privacy">
+        <b>Chính sách quyền riêng tư</b>
+        <small>Privacy Policy — áp dụng cho ứng dụng “Khoa Dev Page Manager” và các công cụ nội bộ của Khoa Dev.</small>
+      </a>
+      <a class="card" href="/terms">
+        <b>Điều khoản dịch vụ</b>
+        <small>Terms of Service — điều kiện sử dụng các ứng dụng và dịch vụ của Khoa Dev.</small>
+      </a>
+    </div>
+    <footer>© 2026 Khoa Dev · <a href="mailto:khoavutri@gmail.com" style="color:var(--red)">khoavutri@gmail.com</a></footer>
+  </div>
+</body>
+</html>
